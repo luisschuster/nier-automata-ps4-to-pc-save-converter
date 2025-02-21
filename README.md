@@ -17,4 +17,4 @@
 ## Credits:
 
 - [Arthur Heitmann](https://github.com/ArthurHeitmann/) for helping figure out the offsets needed for the file to work on PC.
-- [RUGMJ](https://github.com/rugmj) for helping with the javascript code.
+- [RUGMJ](https://github.com/rugmj) for helping with the JavaScript code.
