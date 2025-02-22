@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NieR:Automata PS4 to PC Save File Converter</title>
+    <meta name="description" content="Easily convert your NieR:Automata PS4 save file to work on PC. Follow this simple step-by-step guide to transfer your save data and continue your game progress.">
+    <meta property="og:title" content="Convert NieR:Automata PS4 Save to PC">
+    <meta property="og:description" content="Follow this easy guide to convert your PS4 NieR:Automata save for PC compatibility.">
+    <meta property="og:url" content="https://luisschuster.dev/nier-automata-ps4-to-pc-save-converter">
+    <meta property="og:type" content="website">    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebPage",
+          "name": "NieR:Automata PS4 to PC Save Converter",
+          "description": "Easily convert your NieR:Automata PS4 save file to work on PC using this online tool. Follow a simple step-by-step process.",
+          "url": "https://luisschuster.dev/https://luisschuster.dev/nier-automata-ps4-to-pc-save-converter/",
+          "author": {
+            "@type": "Person",
+            "name": "Luis Schuster"
+          }
+        }
+        </script>        
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="preload" href="/css/converter.css" as="style">
     <link rel="preload" href="/css/fonts.css" as="style">
@@ -13,30 +31,37 @@
 <body>
 
     <div id="header-div">
-        <p>NieR:Automata PS4 to PC Save File Converter</p>
+        <h1>NieR:Automata PS4 to PC Save File Converter</h1>
     </div>
 
-    <div id="text-div">
-        <p>How to convert your NieR:Automata PS4 save game to a PC compatible save game:<br><br><br>
-        1. Export a decrypted save file with <a style="color: #000;" href="https://github.com/bucanero/apollo-ps4" >Apollo Save Tool</a> from your PS4. There's plenty of tutorials on how to do this online. Make sure you export the one called GameData and not the one called SystemData.<br><br>
+    <div class="text-div">
 
-        2. Click on "Convert file!" and pick your GameData file. Make sure you're using Google Chrome for this. The converter will automatically convert your save file to be compatible with the PC version of the game.<br><br>
+        <h2>How to convert your NieR:Automata PS4 save game to a PC compatible save game:<br><br><br></h2>
 
-        3. Download <a style="color: #000;" href="https://github.com/ArthurHeitmann/F-SERVO">F-SERVO</a> and import one of your old save files (located at \Documents \My Games\NieR_Automata\). Copy your Steam ID from that file, then import the converted file, paste in the Steam ID and save it.<br><br>
+        <h3>1. Export a decrypted save file with <a style="color: #000;" href="https://github.com/bucanero/apollo-ps4" >Apollo Save Tool</a> from your PS4. There's plenty of tutorials on how to do this online. Make sure you export the one called GameData and not the one called SystemData.<br><br></h3>
+        
+        <h3>2. Click on "Convert PS4 save to PC!" and pick your GameData file. Make sure you're using Google Chrome for this. The converter will automatically convert your save file to be compatible with the PC version of the game.<br><br></h3>
 
-        4. Now you can simply put the converted file in your save directory and launch the game.<br><br><br>
+        <h3>3. Download <a style="color: #000;" href="https://github.com/ArthurHeitmann/F-SERVO">F-SERVO</a> and import one of your old save files (located at \Documents \My Games\NieR_Automata\). Copy your Steam ID from that file, then import the converted file, paste in the Steam ID and save it.<br><br></h3>
 
-    Credits:<br><br>
-    <a style="color: #000;" href="https://github.com/ArthurHeitmann/">Arthur Heitmann</a> for helping figure out the offsets needed for the file to work on PC.<br>
-    <a style="color: #000;" href="https://github.com/rugmj">RUGMJ</a> for helping with the javascript code.
-        </p>
-
+        <h3>4. Now you can simply put the converted file in your save directory and launch the game.<br><br><br></h3>
         
     </div>
 
     <div id="btn-div">
-        <button class="button" onclick="button()">Convert file!</button>
+    <button class="button" onclick="button()" aria-label="Convert PS4 save to PC!">Convert PS4 Save to PC!</button>
     </div>
+
+    <div class="text-div">
+        <h4>
+            Credits:<br><br>
+            <a style="color: #000;" href="https://github.com/ArthurHeitmann/">Arthur Heitmann</a> for helping figure out the offsets needed for the file to work on PC.<br>
+            <a style="color: #000;" href="https://github.com/rugmj">RUGMJ</a> for helping with the javascript code.
+        </h4>
+    </div>
+
+    <h5 id="gh"><a style="color: #000;" href="https://github.com/luisschuster/nier-automata-ps4-to-pc-save-converter">Source Code on GitHub</a></h5>
+
 </body>
 <script src="/js/converter.js"></script>
 </html>
