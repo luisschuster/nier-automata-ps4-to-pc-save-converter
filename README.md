@@ -1,5 +1,7 @@
 # NieR:Automata PS4 to PC Save File Converter
 
+## Use the converter [here](https://luisschuster.dev/nier-automata-ps4-to-pc-save-converter/)
+
 ## How to convert your NieR:Automata PS4 save game to a PC compatible save game:
 
 1. Export a decrypted save file with [Apollo Save Tool](https://github.com/bucanero/apollo-ps4) from your PS4. There's plenty of tutorials on how to do this online. Make sure you export the one called GameData and not the one called SystemData.
